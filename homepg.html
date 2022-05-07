@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Georama|Didact Gothic" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <style>
+    body {
+      background: url(bg2.png) no-repeat center center fixed;
+      background-size: cover;
+      height: 100%;
+      font-family: "Didact Gothic";
+    }
+
+    .navli {
+      text-decoration: none;
+      float: right;
+      width: auto;
+      display: block;
+      font-size: 25px;
+      height: auto;
+      background-color: black;
+      height: 70px;
+      padding: 15px 0px;
+    }
+
+    .navdiv {
+      background-color: black;
+      color: white;
+      position: fixed;
+      width: 100%;
+      height: 70px;
+    }
+
+    .navbarr {
+      list-style-type: none;
+      position: fixed;
+      right: 0px;
+      top: 0px;
+      background-color: black;
+    }
+
+    .nava {
+      text-decoration: none;
+      font-family: "Didact Gothic";
+      color: white;
+      background-color: black;
+      height: 70px;
+      padding: 20px 10px;
+      transition: 0.5s;
+    }
+
+    .profli,
+    .toggleli {
+      float: right;
+      width: auto;
+      display: block;
+      font-size: 25px;
+      height: auto;
+      color: white;
+      background-color: black;
+      height: 70px;
+      transition: 0.3s;
+    }
+
+    .profa {
+      transition: 0.3s;
+    }
+
+    .nava:hover,
+    .navli:hover,
+    .profli:hover {
+      color: black;
+      background-color: white;
+    }
+
+    .mentormelogo {
+      height: 70px;
+      margin-left: 10px;
+      margin-top: 3px;
+    }
+
+    .prf {
+      color: white;
+      background-color: black;
+      font-size: 40px;
+      height: 70px;
+      padding: 15px;
+      transition: 0.3s;
+    }
+
+    .prf:hover {
+      color: black;
+      background-color: white;
+    }
+
+
+
+    .divhome {
+      min-height: 650px;
+      position: relative;
+      z-index: -1;
+    }
+
+    .divabtus {
+      min-height: 670px;
+    }
+
+    .tp {
+      height: 70px;
+    }
+
+    .d11 {
+      color: black;
+      font-size: 45px;
+      text-align: center;
+      padding: 30px 50px;
+      margin-top: 50px;
+      font-weight: bold;
+    }
+
+    .d12,
+    .d13 {
+      padding: 40px 70px;
+    }
+
+    .footer-col ul {
+      padding-left: 0;
+    }
+
+    .d12 {
+      color: #581e2f;
+      font-size: 30px;
+    }
+
+    .d13 {
+      font-size: 27px;
+      color: black;
+      font-weight: bold;
+    }
+
+    .d22,
+    .d23,
+    .d24,
+    .d25,
+    .d26,
+    .d27,
+    .d210,
+    .d28,
+    .d29 {
+      font-size: 25px;
+    }
+
+    .d22 {
+      color: black;
+      font-size: 28px;
+    }
+
+    .d23 {
+      color: #004253;
+    }
+
+    .d211 {
+      color: #004253;
+      font-weight: bold;
+    }
+
+    .d25 {
+      color: #57001a;
+      font-size: 27px;
+    }
+
+    .d26 {
+      font-weight: bold;
+      color: black;
+    }
+
+    .d27 {
+      color: #004253;
+    }
+
+    .mentorvector {
+      height: 300px;
+      display: block;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .divtopalumni {
+      min-height: 670px;
+    }
+
+    .d21,
+    .d31 {
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .almcard {
+      background-color: rgba(255, 255, 255, 0.4);
+      min-height: 490px;
+      margin: 0px 25px;
+      border-radius: 30px;
+      padding-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .almimg {
+      height: 150px;
+      width: 150px;
+      border-radius: 75px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .almname {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 20px;
+    }
+
+    .almdetails {
+      font-size: 23px;
+      padding: 15px 40px;
+      color: #004253;
+      margin-top: 10px;
+    }
+
+    .divcontactus {
+      min-height: 500px;
+      background-color: black;
+      margin-top: 100px;
+      margin-right: 0px;
+    }
+
+    .contactus {
+      color: white;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 1170px;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    @media only screen and (max-width: 780px) {
+      .footerrow{
+        padding-left: 75px;
+      }
+      .copyright{
+        padding: 0px 25px 100px 25px;
+        
+      }
+      .footercontactus{
+        margin-top: 50px;
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .footer {
+      padding: 70px 0 0 0;
+    }
+
+    .footer-col {
+      width: 25%;
+      padding: 0 15px;
+      position: relative;
+    }
+
+    .footer-col h1 {
+      position: absolute;
+      color: #ffffff;
+      top: 117px;
+    }
+
+    .footer-col h4 {
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+    }
+
+    .footer-col h4::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      background-color: #71dde0;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+    }
+
+    .footer-col ul li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #bbbbbb;
+      display: block;
+      transition: all 0.3s ease;
+    }
+
+    .footer-col ul li a:hover {
+      color: #ffffff;
+      padding-left: 8px;
+    }
+
+    .footer-col .social-links a {
+      display: inline-block;
+      height: 45px;
+      width: 45px;
+      background-color: black;
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.3s ease;
+      border: white;
+      border-style: solid;
+      border-width: 2px;
+    }
+
+    .footer-col .social-links a:hover {
+      color: black;
+      background-color: #ffffff;
+    }
+
+    .copyright {
+      color: white;
+      text-align: center;
+      margin-top: 70px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .footer-col img {
+      position: relative;
+      top: 20px;
+      padding: 0px;
+      margin: 0px;
+      width: 66%;
+      max-width: 300px;
+
+    }
+
+    .heart {
+      color: red;
+    }
+
+    .clr {
+      clear: both;
+    }
+
+    /*responsive*/
+    @media(max-width: 767px) {
+      .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+      }
+    }
+
+    @media(max-width: 574px) {
+      .footer-col {
+        width: 100%;
+      }
+    }
+
+    .webteam {
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .webteam:hover {
+      color: #71dde0;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      .toggleli {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+      .navli,
+      .profli {
+        display: none;
+      }
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    .resnavbar {
+      position: absolute;
+      top: 70px;
+      left: -40px;
+      width: 108%;
+      right: -40px;
+    }
+
+    .resnavli {
+      height: 55px;
+      background-color: black;
+      width: 100%;
+    }
+
+    .resnava {
+      background-color: black;
+      padding: 12px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      transition: 0.3s;
+    }
+
+    .resnava:hover {
+      color: black;
+      background-color: white;
+    }
+
+    .resprf {
+      font-size: 35px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="navdiv topnav" id="myTopnav">
+    <ul class="navbarr">
+      <li class="toggleli">
+        <a class="toggle" href="#"><i class="material-icons prf">&#xe8fe;</i></a>
+      </li>
+      <li class="profli">
+        <a class="profa" href="#"><i class="material-icons prf">person</i></a>
+      </li>
+      <li class="navli"><a class="nava" href="#contactus">Contact us</a></li>
+      <li class="navli"><a class="nava" href="#">Schedule a session</a></li>
+      <li class="navli"><a class="nava" href="#topalumni">Top Mentors</a></li>
+      <li class="navli"><a class="nava" href="#aboutus">About us</a></li>
+      <li class="navli"><a class="nava" href="#home">Home</a></li>
+    </ul>
+    <a href="#"><img class="mentormelogo" src="mentorme.png" alt="MentorMe" /></a>
+  </div>
+  <div class="navres">
+    <ul class="resnavbar">
+      <li class="resnavli"><a class="resnava" href="">Home</a></li>
+      <li class="resnavli"><a class="resnava" href="">About us</a></li>
+      <li class="resnavli"><a class="resnava" href="">Top mentors</a></li>
+      <li class="resnavli"><a class="resnava" href="">Schedule a session</a></li>
+      <li class="resnavli"><a class="resnava" href="">Contact us</a></li>
+      <li class="resnavli"><a class="resnava" href="#"><i class="material-icons resprf">person</i></a></li>
+    </ul>
+  </div>
+  <div class="divhome" id="home">
+    <div class="tp"></div>
+    <div class="d11">
+      BUILD A ROADMAP FOR YOUR CAREER WITH THE RIGHT GUIDANCE!
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="d14"> <img class="mentorvector" src="mentorvector.png" alt="mentor vector"></div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="d12">
+          Being the best in your field is being a legend, and we connect you to
+          the legends who are also skilled in the art of mentorship.
+        </div>
+        <div class="d13">
+          Find the best mentors from across the country to get the counseling you
+          need in your career!
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divabtus" id="aboutus">
+    <div class="tp"></div>
+    <div class="d21">About us</div>
+    <div class="row">
+      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"> </div>
+      <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+        <div class="d22">
+          We at MentorMe are here to help you out with your ongoing courses and future education.
+        </div>
+        <div class="d23">You browse through different profiles on different
+          platforms and aspire to be like someone, accomplish something in life.
+          But instead of losing hope or finding your dreams unrealistic, just ask
+          your idols how does one achieve those heights because
+          <span class="d211">sky is the limit</span> !
+        </div>
+        <div class="d25">Yes, your idols, the mentors you worship are now just a call away!</div>
+        <br>
+        <div class="d26">How
+          Does It Happen?
+        </div>
+        <div class="d27">
+          This platform is designed such that students in
+          Engineering courses can find answers to what to do next when you are
+          confused or in a dilemma, you receive advice from professionals you
+          believe in. A number of excellent, well-known professionals are
+          available as your mentors here so you can choose from them.
+        </div>
+        <div class="d28">&#x276F Select the mentor you wish to talk to.</div>
+        <div class="d29">&#x276F Check their schedule.</div>
+        <div class="d210">&#x276F Book an appointment.</div>
+      </div>
+      <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"> </div>
+    </div>
+
+  </div>
+  <div class="divtopalumni" id="topalumni">
+    <div class="tp"></div>
+    <div class="d31">Our top Mentors</div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="almcard">
+          <img class="almimg" src="alumni.png" alt="">
+          <div class="almname">Name Surname</div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails"><b>Currently working at :</b>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails">--company--</div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails"><b>Students mentored :</b></div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails">--number--</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="almcard">
+          <img class="almimg" src="alumni.png" alt="">
+          <div class="almname">Name Surname</div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails"><b>Currently working at :</b>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails">--company--</div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails"><b>Students mentored :</b></div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails">--number--</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="almcard">
+          <img class="almimg" src="alumni.png" alt="">
+          <div class="almname">Name Surname</div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails"><b>Currently working at :</b>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails">--company--</div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails"><b>Students mentored :</b></div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 almdetails">--number--</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divcontactus" id="contactus">
+    <div class="contactus">
+      <footer class="footer">
+        <div class="container">
+          <div class="row footerrow">
+            <div class="footer-col footerlogo">
+              <img src="mentorme.png" class="footerimg" alt="Logo" />
+            </div>
+            <div class="footer-col footercontactus">
+              <h4>Contact us</h4>
+              <ul>
+                <li>
+                  <a href="#contactus">Address: PICT,Pune</a>
+                </li>
+                <li>
+                  <a href="#contactus">Phone: +91-7709472484</a>
+                </li>
+                <li>
+                  <a href="#contactus">Mail: MentorMe@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#aboutus">about us</a></li>
+                <li><a href="#aboutus">Our services</a></li>
+                <li><a href="#topalumni">Top Mentors</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <h5>&#169; Made with &#10084; by <a class="webteam" href="">MentorMe webteam</a>.</h3>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      const toggleButton = document.getElementsByClassName('toggle')[0]
+      const navbarLinks = document.getElementsByClassName('navres')[0]
+
+      toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+      })
+
+    </script>
+</body>
+
+</html>
